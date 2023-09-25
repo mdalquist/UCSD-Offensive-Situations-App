@@ -1,5 +1,5 @@
 # UCSD-Offensive-Situations-App
 
-This repository stores the app I built to help the baseball and softball coaches at UCSD make in-game strategy decisions by providing a chance of success needed to break even on expected runs or run probability. 
+This repository stores the app I built to help the baseball and softball coaches at UCSD make in-game strategy decisions by providing a chance of success needed to break even on expected runs or run probability. These numbers are calculated based on the expected runs and run probabilities of each of the 24 base-out states, determined from the play-by-play data from UCSD Baseball and Softball in the 2021-2023 seasons. When attempting to run a play to move from one base-out state to another, the team is risking the runs from one situation for the reward of runs in another situation. The probability of success needed to make the risk and reward equal value is determined using the formula risk/(risk + reward). This formula is the foundation of the math behind the app, and coaches can use it to help guide their in-game strategy.
 
 The app is hosted on streamlit at [https://ucsd-offensive-situations-app-65pwgcrawzsdqpscpa39vg.streamlit.app/](https://ucsd-offensive-situations-app-65pwgcrawzsdqpscpa39vg.streamlit.app/)
