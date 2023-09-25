@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import requests as re
-import bs4
 import streamlit as st
 
 st.title("UC San Diego Offensive Situations Calculator")
